@@ -1,0 +1,213 @@
+body {
+  color: #fff; }
+  
+/* Navbar */
+  
+.navbar {
+  width: 100%;
+  background: none !important; 
+}
+
+@media (max-width: 34em) {
+    .navbar {
+		background: black !important; 
+	}
+}
+
+.navbar .navbar-toggler {
+	cursor: pointer;
+    outline: 0; 
+}
+
+.navbar .nav-link {
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+  
+.navbar .nav-item {
+    padding: 0 1rem; 
+}
+   
+@media (max-width: 34em) {
+    .navbar .nav-item {
+        padding: 0; 
+	} 
+}
+
+@media (max-width: 34em) {
+    .navbar .nav-item .nav-link {
+		font-weight: normal;
+        color: #fff !important; 
+	} 
+}
+		
+.navbar a:hover {
+	text-decoration: underline;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+
+
+
+/* List */
+
+ol {
+  margin: 0;
+  padding: 0;
+  
+  border-left: 3px solid red;
+}
+
+ol li {
+
+  font-size: 25px
+  
+}
+
+.box {
+	position: relative;
+	border-bottom: 1px solid white;
+}
+
+.box img {
+	width: 100%;
+}
+
+.direction {
+	position: absolute;
+	top: 15px;
+	left: 5%;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+ }
+
+ .direction a {
+	color: white;
+ }
+ 
+.date {
+	position: absolute;
+	top: 40px;
+	left: 5%;
+	font-size: 12px;
+	color: white;
+ }
+
+ 
+ 
+/* Text section */
+
+.title-caption{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+.text-section{
+	padding-right: 50px;
+	margin-top: 10px;
+}
+.white-bg {
+	background: white;
+}
+
+.days-ago {
+	font-size:12px;
+	color: gray;
+	margin-top: 5px;
+ }
+
+h1 {
+	font-weight: bold;
+	font-size: 3.5em; 
+  
+ }
+
+#hero {
+  background: url("../img/bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 60%; 
+}
+
+.hero-img {
+  width: 80%; 
+}
+
+.feature-wrapper {
+  color: #000; 
+}
+
+/* Form */	
+
+#join-container {
+	background: url("../img/screen1.jpg") no-repeat;
+	background-size: cover; 
+}
+
+#join-container h2 {
+	letter-spacing: 4px;
+	font-weight: bold; 
+}
+  
+#join-container h4 {
+    color: gray; }
+
+#join-container .form-control {
+    background: #111111;
+    border: 3px solid #2F2F2F;
+    padding: 10px; 
+	color: white;
+}
+
+#join-container .btn {
+    padding: 12px;
+    border: none;
+    color: #000;
+    cursor: pointer; 
+}
+
+	
+/* Image */	
+
+.overlay:hover {
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+.image-size {
+	height: 100px;
+	width: 100%;
+	background: black;
+}
+
+a {
+	color: black;
+}
+	
+
+/* Footer */		
+	
+footer{
+	padding:20px;
+}
+
+.social-icons{
+	color: white;
+	font-size: 25px;
+	padding: 3px;
+}
+
+.social-icons:hover{
+	color: red;
+	font-size: 25px;
+	padding: 3px;
+}
+
+.list-unstyled {
+	font-size: 13px;
+}
+
